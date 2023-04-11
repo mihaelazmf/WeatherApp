@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #5bb7a3;
+}
+.card{
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #efef71, #c09c25);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius:  20px;
+  padding: 30px 35px;
+  text-align: center;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  flex: 1;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  margin-right: 16px;
+  font-size:  18px;
+}
+
+button[type="button"] {
+  background-color: #ebfffc;
+  border-radius: 50%;
+  color: #c09c25;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+#search-button img {
+  width: 16px;
+
+}
+button[type="button"]:hover {
+  background-color: #ecee7b;
+}
+
+#weather-data {
+  background: linear-gradient(135deg, #efef71, #c09c25);
+  padding: 20px;
+  width: 90%;
+  max-width: 470px;
+  color: #fff;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.forecast .day {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: calc(33.33% - 10px);
+  max-width: 150px;
+  height: 220px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.forecast .day .day-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.forecast .day .day-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.forecast .day .day-temp {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  margin-top: 10px;
+  width: 100%;
+}
+h1 {
+  display: flex;
+}
