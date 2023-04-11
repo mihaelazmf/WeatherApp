@@ -98,3 +98,21 @@ function getLocation() {
 
 // Call getLocation function to get weather data for user's current location
 getLocation();
+
+
+searchButton.addEventListener('click', () => {
+  const city = searchInput.value.trim();
+  if (city) {
+    getWeatherData(city);
+  }
+});
+
+function searchEnterKey(event) {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    const city = searchInput.value.trim();
+    if (city) {
+      getWeatherData(city);
+    }
+  }
+}
