@@ -23,6 +23,9 @@ function getWeatherData(city = '') {
       const { temp, humidity } = main;
       const { description, icon } = weather[0];
 
+      // Set background based on weather conditions
+      const body = document.querySelector('body');
+
       const currentWeatherHtml = `
         <h2>${name}</h2>
         <p>${description}</p>

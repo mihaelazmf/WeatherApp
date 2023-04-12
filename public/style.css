@@ -4,9 +4,8 @@
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
-body {
-  background-color: #5bb7a3;
-}
+
+
 .card{
   width: 90%;
   max-width: 470px;
@@ -135,3 +134,8 @@ footer {
 h1 {
   display: flex;
 }
+
+body {
+  background-image: url('images/cloudy-bg.jpg');
+}
+
